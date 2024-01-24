@@ -1,0 +1,392 @@
+ body {
+     margin: 0;
+     /* font-family: Arial, sans-serif; */
+     font-family: qartuli;
+     src: url(https://www.file.io/v9iX/download/zBLGiS6rLQOa);
+
+ }
+
+ .header {
+     height: 310px;
+     width: 100%;
+     background-image: linear-gradient(#AFC831, #065A3A);
+     position: relative;
+     overflow: hidden;
+     line-height: 25px;
+ }
+
+ .content {
+     font-size: 40px;
+     line-height: 10px;
+     position: absolute;
+     top: 50%;
+     left: 45%;
+     transform: translate(0, -50%);
+     text-align: left;
+     color: #ffffff;
+ }
+
+ .round-image {
+     height: 226px;
+     position: absolute;
+     left: 20%;
+     bottom: 50%;
+     transform: translate(0, 50%);
+     border-radius: 50%;
+ }
+
+ .image-container {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .container1 {
+     position: absolute;
+     margin-top: -30px;
+     margin-left: 20%;
+     width: 300px;
+     text-align: center;
+ }
+
+ .container2 {
+     position: absolute;
+     margin-top: -30px;
+     margin-left: 40%;
+     width: 300px;
+     text-align: center;
+ }
+
+ .container3 {
+     position: absolute;
+     margin-top: -30px;
+     margin-left: 60%;
+     width: 300px;
+     text-align: center;
+ }
+
+ .grey-rectangle {
+     width: 298px;
+     height: 48px;
+     background-image: linear-gradient(white, grey);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 10px;
+     border: 1px solid black;
+ }
+
+ .img1 {
+     margin-top: -10px;
+     width: 300px;
+     height: 200px;
+     object-fit: cover;
+     box-shadow: 5px 5px 5px grey;
+ }
+
+ .l5:hover {
+     box-shadow: 5px 5px 5px rgb(79, 255, 63);
+     cursor: pointer;
+ }
+
+
+ .meniu {
+     border-bottom: 1px solid black;
+ }
+
+ .suratebi {
+     height: 300px;
+ }
+
+ .direqtori {
+     font-size: 30px;
+     font-weight: 900;
+     margin-left: 20%;
+     height: 100px;
+     text-align: left;
+     display: flex;
+     align-items: center;
+     justify-content: left;
+ }
+
+
+ #nino {
+     margin-left: 20%;
+     display: flex;
+ }
+
+ #left-figure,
+ #right-figure {
+     width: 300px;
+     height: 400px;
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+ }
+
+ #left-figure img {
+
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ #right-figure {
+     width: auto;
+     margin-left: 2px;
+     padding-left: 20px;
+     padding-right: 20px;
+     background-image: linear-gradient(to right, rgb(163, 162, 162), white);
+     color: black;
+
+ }
+
+ #red-rectangle {
+     background-color: red;
+     color: white;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     margin-top: -10px;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .main {
+     margin-top: 200px;
+     background-image: linear-gradient(#AFC831, #065A3A);
+     display: flex;
+     /* height: 1135px; */
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+ }
+
+
+ body {
+     margin: 0;
+ }
+
+
+
+ .text {
+     height: 1135px;
+     width: 60%;
+     padding: 25px;
+     margin-left: 100px;
+     font-size: 26px;
+     color: white;
+ }
+
+ .images {
+     width: 40%;
+     padding: 50px;
+     /* Add padding as needed */
+     box-sizing: border-box;
+     /* Include padding in the width */
+ }
+
+ .images img {
+     box-shadow: 10px 10px 10px rgb(42, 42, 42);
+     width: 250px;
+     /* Make sure images don't exceed the container width */
+     max-width: 100%;
+     height: 300px;
+     display: block;
+     /* Remove extra space below inline images */
+     margin-bottom: 50px;
+     /* Add margin between images if needed */
+     transition: color 0.25s, box-shadow 0.25s, border-color 0.25s, transform 0.25s;
+ }
+
+ .images img:hover {
+     box-shadow: 10px 10px 10px rgb(79, 255, 63);
+     transform: translateY(-0.25em);
+
+ }
+
+ .chvensShesaxeb {
+     margin-left: 150px;
+     font-weight: 500;
+     font-size: 35px;
+ }
+
+ #red-rectangle2 {
+     background-color: red;
+     color: white;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     margin-top: -10px;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .warwera2 {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     font-weight: 600;
+     font-size: 18px;
+     width: 90%;
+     height: 70%;
+     background-image: linear-gradient(grey, white);
+ }
+
+ .warwera2 p {
+     margin: 0px;
+     text-align: left;
+     display: inline-block;
+ }
+
+
+ #figures-container {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+
+ #left-figure2,
+ #middle-figure2,
+ #right-figure2 {
+     width: 300px;
+     height: 400px;
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+     margin-right: 20px;
+ }
+
+ #left-figure2 img,
+ #middle-figure2 img,
+ #right-figure2 img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ #right-figure2 {
+     background-image: linear-gradient(to right, rgb(163, 162, 162), white);
+     color: black;
+ }
+
+ .suratebi2 {
+     height: 200px;
+ }
+
+ .suratebi3 {
+     height: 400px;
+ }
+
+ .custom-container {
+     display: flex;
+     justify-content: space-evenly;
+     /* Adjust this property to distribute space between items */
+     align-items: center;
+     height: 500px;
+ }
+
+ .custom-box,
+ .custom-box2,
+ .custom-box3,
+ .custom-box4,
+ .custom-box5,
+ .custom-box6 {
+     background-image: linear-gradient(#AFC831, #065A3A);
+     color: rgb(226, 226, 226);
+     width: 170px;
+     height: 100px;
+     margin: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     line-height: 40px;
+     transition: all 0.5s ease;
+ }
+
+
+ .gamotoveba {
+     height: 200px;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+
+
+ .container5 {
+     position: relative;
+     height: 450px;
+     background-image: linear-gradient(#AFC831, #065A3A);
+     text-align: center;
+ }
+
+ .bla {
+     font-weight: 400;
+     margin: 0;
+     padding-top: 50px;
+     color: white;
+ }
+
+ .bolo {
+     height: 226px;
+     margin-top: 20px;
+     border-radius: 50%;
+ }
+
+ .social-icons {
+     margin-left: 20px;
+     margin-bottom: 20px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     display: flex;
+ }
+
+ .linkebi {
+     height: 40px;
+     margin-right: 10px;
+ }
+
+ .chvensShesaxeb3 {
+     display: none;
+ }
+
+ @media screen and (max-width: 900px) {
+     .chvensShesaxeb {
+         display: none;
+     }
+
+     .chvensShesaxeb3 {
+         display: block;
+     }
+
+     .text {
+         font-size: 20px;
+     }
+
+     .chvensShesaxeb2 {
+         display: none;
+     }
+
+     .px {
+         display: none;
+     }
+ }
+
+ @media screen and (max-width: 900px) {
+     .content {
+         font-size: 15px;
+     }
+
+     .round-image {
+         height: 110px;
+         left: 10%;
+     }
+ }
